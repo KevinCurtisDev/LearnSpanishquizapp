@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_learn_spanish"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.learnspanishquizapp.learnSpanish">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eng1"
+                    android:text="Hola!"
+                    android:layout_marginBottom="1dp"
+                    android:paddingLeft="16dp"
+                    android:textSize="24sp"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#1a75ff"
+                    android:onClick="playhi"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eng2"
+            android:text="Hello!"
+            android:layout_marginBottom="4dp"
+            android:paddingLeft="16dp"
+            android:textSize="24sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#b3b3b3"
+            android:layout_height="1dp"
+            android:layout_marginBottom="24dp"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:text="Adios!"
+                    android:layout_marginBottom="1dp"
+                    android:paddingLeft="16dp"
+                    android:textSize="24sp"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#1a75ff"
+                    android:onClick="playbye"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bye!"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="16dp"
+                android:textSize="24sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#b3b3b3"
+                android:layout_height="1dp"
+                android:layout_marginBottom="24dp"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="Buenos dias!"
+                    android:textSize="24sp"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#1a75ff"
+                    android:onClick="playMorning"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good morning!"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="24sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#b3b3b3"
+            android:layout_height="1dp"
+            android:layout_marginBottom="24dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:text="Buenas noches!"
+                    android:layout_marginBottom="1dp"
+                    android:paddingLeft="16dp"
+                    android:textSize="24sp"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="playNight"
+                    android:layout_height="wrap_content"
+                    android:background="#1a75ff"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good night!"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="24sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#b3b3b3"
+            android:layout_height="1dp"
+            android:layout_marginBottom="24dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:text="Mi nombre es.."
+                    android:layout_marginBottom="1dp"
+                    android:paddingLeft="16dp"
+                    android:textSize="24sp"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="playName"
+                    android:layout_height="wrap_content"
+                    android:background="#1a75ff"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My name is.."
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="24sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#b3b3b3"
+            android:layout_height="1dp"
+            android:layout_marginBottom="24dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:text="Me llamo.."
+                    android:layout_marginBottom="1dp"
+                    android:paddingLeft="16dp"
+                    android:textSize="24sp"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:onClick="playImCalled"
+                    android:layout_height="wrap_content"
+                    android:background="#1a75ff"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm called (my name is).."
+            android:paddingLeft="16dp"
+            android:textSize="24sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#b3b3b3"
+            android:layout_height="1dp"
+            android:layout_marginBottom="24dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="Como estás?"
+            android:layout_marginBottom="1dp"
+            android:paddingLeft="16dp"
+            android:textSize="24sp"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="playHowAreU"
+            android:layout_height="wrap_content"
+            android:background="#1a75ff"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How are you?"
+            android:paddingLeft="16dp"
+            android:textSize="24sp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
