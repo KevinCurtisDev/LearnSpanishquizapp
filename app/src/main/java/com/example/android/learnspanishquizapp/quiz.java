@@ -13,13 +13,30 @@ import android.widget.Toast;
 
 public class quiz extends AppCompatActivity {
 
+    private RadioButton ans1;
+    private RadioButton ans2;
+    private CheckBox questionThree;
+    private CheckBox questionThree2;
+    private EditText questionFour;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_quiz);
+        ans1 = (RadioButton) findViewById(R.id.radioButton2);
+        ans2 = (RadioButton) findViewById(R.id.radioButton5);
+        questionThree = (CheckBox) findViewById(R.id.checkBox9);
+        questionThree2 = (CheckBox) findViewById(R.id.checkBox12);
+        questionFour = (EditText) findViewById(R.id.typedText);
+    }
+
+
      /**
      * This method checks whether the correct radio button is checked for question 1 and returns a toast message.
      **/
 
     public void check1(View view) {
-        RadioButton ans1 = (RadioButton) findViewById(R.id.radioButton2);
-        boolean questionOneCorrect = ans1.isChecked();
+        Boolean questionOneCorrect = ans1.isChecked();
 
         if (questionOneCorrect) {
             Toast.makeText(this, "Great job", Toast.LENGTH_SHORT).show();
@@ -33,7 +50,6 @@ public class quiz extends AppCompatActivity {
      **/
 
     public void check2(View view) {
-        RadioButton ans2 = (RadioButton) findViewById(R.id.radioButton5);
         boolean questionTwoCorrect = ans2.isChecked();
 
         if (questionTwoCorrect) {
@@ -48,10 +64,8 @@ public class quiz extends AppCompatActivity {
      **/
 
     public void check3(View view) {
-        CheckBox questionThree = (CheckBox) findViewById(R.id.checkBox9);
         Boolean questionThreeCorrect = questionThree.isChecked();
 
-        CheckBox questionThree2 = (CheckBox) findViewById(R.id.checkBox12);
         Boolean questionThreeCorrect2 = questionThree2.isChecked();
 
         if (questionThreeCorrect && questionThreeCorrect2) {
@@ -66,7 +80,6 @@ public class quiz extends AppCompatActivity {
      **/
 
     public void check4(View view) {
-        EditText questionFour = (EditText) findViewById(R.id.typedText);
         String ans = questionFour.getText().toString();
 
         if (ans.equals("Quiero") || ans.equals("quiero")) {
@@ -82,19 +95,14 @@ public class quiz extends AppCompatActivity {
 
     public void finalScore(View view) {
 
-        RadioButton ans1 = (RadioButton) findViewById(R.id.radioButton2);
         boolean questionOneCorrect = ans1.isChecked();
 
-        RadioButton ans2 = (RadioButton) findViewById(R.id.radioButton5);
         boolean questionTwoCorrect = ans2.isChecked();
 
-        CheckBox questionThree = (CheckBox) findViewById(R.id.checkBox9);
         Boolean questionThreeCorrect = questionThree.isChecked();
 
-        CheckBox questionThree2 = (CheckBox) findViewById(R.id.checkBox12);
         Boolean questionThreeCorrect2 = questionThree2.isChecked();
 
-        EditText questionFour = (EditText) findViewById(R.id.typedText);
         String ans = questionFour.getText().toString();
 
 
@@ -121,13 +129,6 @@ public class quiz extends AppCompatActivity {
 
         }
 
-    }
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
     }
 
 
