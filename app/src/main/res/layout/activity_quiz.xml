@@ -16,11 +16,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="32dp"
-            android:text="What's the Spanish for 'Hello'?"
-            android:textSize="20sp"/>
+            android:layout_marginBottom="@dimen/margin1"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="@string/hi2"
+            android:textSize="@dimen/text2"/>
 
 
         <RadioGroup
@@ -30,42 +30,42 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#ffffff"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
+            android:background="@dimen/colour_back"
             android:id="@+id/radioButton1"
-            android:textSize="16sp"
-            android:text="Adios!"/>
+            android:textSize="@dimen/text"
+            android:text="@string/bye"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:id="@+id/radioButton2"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Hola!"/>
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/hi"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:id="@+id/radioButton3"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Buenos dias!"/>
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/morning"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:id="@+id/radioButton4"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Buenas noches!"/>
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/night"/>
 
         </RadioGroup>
 
@@ -77,17 +77,17 @@
             android:background="#1a8cff"
             android:onClick="check1"
             android:padding="5dp"
-            android:text="Check your answer"
-            android:textColor="#ffffff"/>
+            android:text="@string/check"
+            android:textColor="@dimen/colour_back"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="32dp"
-            android:text="What's the Spanish for 'Goodbye'?"
-            android:textSize="20sp"/>
+            android:layout_marginBottom="@dimen/margin1"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="@string/bye2"
+            android:textSize="@dimen/text2"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -96,42 +96,42 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:background="@dimen/colour_back"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:id="@+id/radioButton5"
-            android:textSize="16sp"
-            android:text="Adios!"/>
+            android:textSize="@dimen/text"
+            android:text="@string/bye"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#ffffff"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
+            android:background="@dimen/colour_back"
             android:id="@+id/radioButton6"
-            android:textSize="16sp"
-            android:text="Hola!"/>
+            android:textSize="@dimen/text"
+            android:text="@string/hi"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:id="@+id/radioButton7"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Buenos dias!"/>
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/morning"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:id="@+id/radioButton8"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Buenos noches!"/>
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/night"/>
 
         </RadioGroup>
 
@@ -139,86 +139,87 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="@dimen/margin2"
             android:background="#1a8cff"
             android:onClick="check2"
             android:padding="5dp"
-            android:text="Check your answer"
-            android:textColor="#ffffff"/>
+            android:text="@string/check"
+            android:textColor="@dimen/colour_back"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="32dp"
-            android:text="What two ways can you say 'My name is'?"
-            android:textSize="20sp"/>
+            android:layout_marginBottom="@dimen/margin1"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="@string/name4"
+            android:textSize="@dimen/text2"/>
 
         <CheckBox
             android:id="@+id/checkBox9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Me llamo " />
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/name1" />
 
         <CheckBox
             android:id="@+id/checkBox10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Como te llamas?" />
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/name3" />
 
         <CheckBox
             android:id="@+id/checkBox11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Como estás?" />
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/hru" />
 
         <CheckBox
             android:id="@+id/checkBox12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#ffffff"
-            android:textSize="16sp"
-            android:text="Mi nombre es" />
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
+            android:background="@dimen/colour_back"
+            android:textSize="@dimen/text"
+            android:text="@string/name2" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="@dimen/margin2"
             android:background="#1a8cff"
             android:onClick="check3"
             android:padding="5dp"
             android:text="Check your answers"
-            android:textColor="#ffffff"/>
+            android:textColor="@dimen/colour_back"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="32dp"
-            android:text="Type the Spanish for 'I want'"
-            android:textSize="20sp"/>
+            android:layout_marginBottom="@dimen/margin1"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="@string/type"
+            android:textSize="@dimen/text2"/>
 
         <EditText
+            android:hint="Qui..."
             android:id="@+id/typedText"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/margin1"
+            android:layout_marginRight="@dimen/margin1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -227,25 +228,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="@dimen/margin2"
             android:background="#1a8cff"
             android:onClick="check4"
             android:padding="5dp"
-            android:text="Check your answer"
-            android:textColor="#ffffff"/>
+            android:text="@string/check"
+            android:textColor="@dimen/colour_back"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="@dimen/margin2"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:background="#00b33c"
-            android:textColor="#ffffff"
-            android:textSize="20sp"
+            android:textColor="@dimen/colour_back"
+            android:textSize="@dimen/text2"
             android:onClick="finalScore"
-            android:text="Final score"/>
+            android:text="@string/score"/>
 
     </LinearLayout>
 

@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Learn Spanish quiz app</string>
+    <string name="check">Check your answer</string>
+    <string name="score">Final Score</string>
+    <string name="hi">Hola</string>
+    <string name="hi2">What is the Spanish for "Hello"?</string>
+    <string name="hi3">Hola</string>
+    <string name="bye">Adios</string>
+    <string name="bye2">What is the Spanish for "Goodbye"?</string>
+    <string name="bye3">Bye</string>
+    <string name="morning">Buenos dias!</string>
+    <string name="morning2">Good morning!</string>
+    <string name="night">Buenas noches!</string>
+    <string name="night2">Good night!</string>
+    <string name="hru">Como estás?</string>
+    <string name="hru2">How are you?</string>
+    <string name="name1">Me llamo..</string>
+    <string name="name2">Mi nombre es..</string>
+    <string name="name3">Como te llamas?</string>
+    <string name="name5">My name is..</string>
+    <string name="name6">I am called / my name is..</string>
+    <string name="type">Type the Spanish for "I want"</string>
+    <string name="name4">What two ways can you say "My name is"?</string>
 </resources>

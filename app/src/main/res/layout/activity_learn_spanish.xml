@@ -27,10 +27,10 @@
                     android:layout_weight="4"
                     android:layout_height="wrap_content"
                     android:id="@+id/eng1"
-                    android:text="Hola!"
+                    android:text="@string/hi"
                     android:layout_marginBottom="1dp"
                     android:paddingLeft="16dp"
-                    android:textSize="24sp"/>
+                    android:textSize="@dimen/text3"/>
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -47,14 +47,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/eng2"
-            android:text="Hello!"
+            android:text="@string/hi3"
             android:layout_marginBottom="4dp"
             android:paddingLeft="16dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
         <View
             android:layout_width="match_parent"
-            android:background="#b3b3b3"
+            android:background="dimen/colour_back2"
             android:layout_height="1dp"
             android:layout_marginBottom="24dp"></View>
 
@@ -67,10 +67,10 @@
                     android:layout_width="0dp"
                     android:layout_weight="4"
                     android:layout_height="wrap_content"
-                    android:text="Adios!"
+                    android:text="@string/bye"
                     android:layout_marginBottom="1dp"
                     android:paddingLeft="16dp"
-                    android:textSize="24sp"/>
+                    android:textSize="@dimen/text3"/>
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -86,14 +86,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bye!"
+                android:text="@string/bye3"
                 android:layout_marginBottom="4dp"
                 android:paddingLeft="16dp"
-                android:textSize="24sp"/>
+                android:textSize="@dimen/text3"/>
 
             <View
                 android:layout_width="match_parent"
-                android:background="#b3b3b3"
+                android:background="dimen/colour_back2"
                 android:layout_height="1dp"
                 android:layout_marginBottom="24dp"></View>
 
@@ -109,8 +109,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="16dp"
                     android:layout_marginBottom="1dp"
-                    android:text="Buenos dias!"
-                    android:textSize="24sp"/>
+                    android:text="@string/morning"
+                    android:textSize="@dimen/text3"/>
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -126,14 +126,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Good morning!"
+            android:text="@string/morning2"
             android:paddingLeft="16dp"
             android:layout_marginBottom="4dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
         <View
             android:layout_width="match_parent"
-            android:background="#b3b3b3"
+            android:background="dimen/colour_back2"
             android:layout_height="1dp"
             android:layout_marginBottom="24dp"></View>
 
@@ -146,10 +146,10 @@
                     android:layout_width="0dp"
                     android:layout_weight="4"
                     android:layout_height="wrap_content"
-                    android:text="Buenas noches!"
+                    android:text="@string/night"
                     android:layout_marginBottom="1dp"
                     android:paddingLeft="16dp"
-                    android:textSize="24sp"/>
+                    android:textSize="@dimen/text3"/>
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -164,14 +164,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Good night!"
+            android:text="@string/night2"
             android:paddingLeft="16dp"
             android:layout_marginBottom="4dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
         <View
             android:layout_width="match_parent"
-            android:background="#b3b3b3"
+            android:background="dimen/colour_back2"
             android:layout_height="1dp"
             android:layout_marginBottom="24dp"></View>
 
@@ -185,10 +185,10 @@
                     android:layout_width="0dp"
                     android:layout_weight="4"
                     android:layout_height="wrap_content"
-                    android:text="Mi nombre es.."
+                    android:text="@string/name2"
                     android:layout_marginBottom="1dp"
                     android:paddingLeft="16dp"
-                    android:textSize="24sp"/>
+                    android:textSize="@dimen/text3"/>
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -203,14 +203,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="My name is.."
+            android:text="@string/name5"
             android:paddingLeft="16dp"
             android:layout_marginBottom="4dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
         <View
             android:layout_width="match_parent"
-            android:background="#b3b3b3"
+            android:background="dimen/colour_back2"
             android:layout_height="1dp"
             android:layout_marginBottom="24dp"></View>
 
@@ -224,10 +224,10 @@
                     android:layout_width="0dp"
                     android:layout_weight="4"
                     android:layout_height="wrap_content"
-                    android:text="Me llamo.."
+                    android:text="@string/name1"
                     android:layout_marginBottom="1dp"
                     android:paddingLeft="16dp"
-                    android:textSize="24sp"/>
+                    android:textSize="@dimen/text3"/>
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -242,13 +242,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="I'm called (my name is).."
+            android:text="@string/name6"
             android:paddingLeft="16dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
         <View
             android:layout_width="match_parent"
-            android:background="#b3b3b3"
+            android:background="dimen/colour_back2"
             android:layout_height="1dp"
             android:layout_marginBottom="24dp"></View>
 
@@ -261,10 +261,10 @@
             android:layout_width="0dp"
             android:layout_weight="4"
             android:layout_height="wrap_content"
-            android:text="Como estás?"
+            android:text="@string/hru"
             android:layout_marginBottom="1dp"
             android:paddingLeft="16dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
         <ImageButton
             android:layout_width="0dp"
@@ -279,9 +279,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="How are you?"
+            android:text="@string/hru2"
             android:paddingLeft="16dp"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/text3"/>
 
 
         </LinearLayout>
