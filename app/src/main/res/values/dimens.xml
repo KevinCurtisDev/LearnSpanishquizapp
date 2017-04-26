@@ -5,8 +5,6 @@
     <dimen name="text">16sp</dimen>
     <dimen name="text2">20sp</dimen>
     <dimen name="text3">24sp</dimen>
-    <dimen name="colour_back">#ffffff</dimen>
-    <dimen name="colour_back2">"#b3b3b3"</dimen>
     <dimen name="margin1">16dp</dimen>
     <dimen name="margin2">32dp</dimen>
 

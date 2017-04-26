@@ -27,45 +27,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:background="@dimen/colour_back"
-            android:id="@+id/radioButton1"
-            android:textSize="@dimen/text"
-            android:text="@string/bye"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:background="@color/colour_back"
+                android:id="@+id/radioButton1"
+                android:textSize="@dimen/text"
+                android:text="@string/bye"/>
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:id="@+id/radioButton2"
-            android:background="@dimen/colour_back"
-            android:textSize="@dimen/text"
-            android:text="@string/hi"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:id="@+id/radioButton2"
+                android:background="@color/colour_back"
+                android:textSize="@dimen/text"
+                android:text="@string/hi"/>
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:id="@+id/radioButton3"
-            android:background="@dimen/colour_back"
-            android:textSize="@dimen/text"
-            android:text="@string/morning"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:id="@+id/radioButton3"
+                android:background="@color/colour_back"
+                android:textSize="@dimen/text"
+                android:text="@string/morning"/>
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:id="@+id/radioButton4"
-            android:background="@dimen/colour_back"
-            android:textSize="@dimen/text"
-            android:text="@string/night"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:id="@+id/radioButton4"
+                android:background="@color/colour_back"
+                android:textSize="@dimen/text"
+                android:text="@string/night"/>
 
         </RadioGroup>
 
@@ -78,7 +78,7 @@
             android:onClick="check1"
             android:padding="5dp"
             android:text="@string/check"
-            android:textColor="@dimen/colour_back"/>
+            android:textColor="@color/colour_back"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -93,45 +93,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@dimen/colour_back"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:id="@+id/radioButton5"
-            android:textSize="@dimen/text"
-            android:text="@string/bye"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colour_back"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:id="@+id/radioButton5"
+                android:textSize="@dimen/text"
+                android:text="@string/bye"/>
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:background="@dimen/colour_back"
-            android:id="@+id/radioButton6"
-            android:textSize="@dimen/text"
-            android:text="@string/hi"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:background="@color/colour_back"
+                android:id="@+id/radioButton6"
+                android:textSize="@dimen/text"
+                android:text="@string/hi"/>
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:id="@+id/radioButton7"
-            android:background="@dimen/colour_back"
-            android:textSize="@dimen/text"
-            android:text="@string/morning"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:id="@+id/radioButton7"
+                android:background="@color/colour_back"
+                android:textSize="@dimen/text"
+                android:text="@string/morning"/>
 
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin1"
-            android:layout_marginRight="@dimen/margin1"
-            android:id="@+id/radioButton8"
-            android:background="@dimen/colour_back"
-            android:textSize="@dimen/text"
-            android:text="@string/night"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin1"
+                android:layout_marginRight="@dimen/margin1"
+                android:id="@+id/radioButton8"
+                android:background="@color/colour_back"
+                android:textSize="@dimen/text"
+                android:text="@string/night"/>
 
         </RadioGroup>
 
@@ -144,7 +144,7 @@
             android:onClick="check2"
             android:padding="5dp"
             android:text="@string/check"
-            android:textColor="@dimen/colour_back"/>
+            android:textColor="@color/colour_back"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -161,7 +161,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin1"
             android:layout_marginRight="@dimen/margin1"
-            android:background="@dimen/colour_back"
+            android:background="@color/colour_back"
             android:textSize="@dimen/text"
             android:text="@string/name1" />
 
@@ -171,7 +171,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin1"
             android:layout_marginRight="@dimen/margin1"
-            android:background="@dimen/colour_back"
+            android:background="@color/colour_back"
             android:textSize="@dimen/text"
             android:text="@string/name3" />
 
@@ -181,7 +181,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin1"
             android:layout_marginRight="@dimen/margin1"
-            android:background="@dimen/colour_back"
+            android:background="@color/colour_back"
             android:textSize="@dimen/text"
             android:text="@string/hru" />
 
@@ -191,7 +191,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin1"
             android:layout_marginRight="@dimen/margin1"
-            android:background="@dimen/colour_back"
+            android:background="@color/colour_back"
             android:textSize="@dimen/text"
             android:text="@string/name2" />
 
@@ -204,7 +204,7 @@
             android:onClick="check3"
             android:padding="5dp"
             android:text="Check your answers"
-            android:textColor="@dimen/colour_back"/>
+            android:textColor="@color/colour_back"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -233,7 +233,7 @@
             android:onClick="check4"
             android:padding="5dp"
             android:text="@string/check"
-            android:textColor="@dimen/colour_back"/>
+            android:textColor="@color/colour_back"/>
 
         <Button
             android:layout_width="match_parent"
@@ -243,7 +243,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:background="#00b33c"
-            android:textColor="@dimen/colour_back"
+            android:textColor="@color/colour_back"
             android:textSize="@dimen/text2"
             android:onClick="finalScore"
             android:text="@string/score"/>
